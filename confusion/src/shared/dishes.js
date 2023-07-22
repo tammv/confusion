@@ -1,44 +1,43 @@
-export const DISHES = [
-  {
-    id: 0,
-    name: "Cá Phile Sốt Chanh Dây",
-    image: "../assets/images/buffet.png",
-    category: "mains",
-    label: "Hot",
-    price: "6.99",
-    featured: true,
-    description: "Cá phi lê sốt chanh là 1 món ăn chiên hấp dẫn, thơm ngon, đầy dinh dưỡng từ cá.",
-  },
-  {
-    id: 1,
-    name: "Cơm Chiên Hải Sản",
-    image: "../assets/images/buffet.png",
-    category: "appetizer",
-    label: "",
-    price: "2.52",
-    featured: false,
-    description:
-      "Trong thực đơn món chiên có món cơm chiên hải sản siêu hấp dẫn với hạt cơm tơi giòn hòa quyện vị ngọt của hải sản và các rau củ bùi bùi vô cùng bổ dưỡng.",
-  },
-  {
-    id: 2,
-    name: "Gỏi Củ Hủ Dừa Tôm Thịt",
-    image: "../assets/images/buffet.png",
-    category: "appetizer",
-    label: "New",
-    price: "3.99",
-    featured: false,
-    description: "Món gỏi củ hủ dừa tôm thịt là món ăn đặc sản của người miền Tây, thường được dùng làm món khai vị. V",
-  },
-  {
-    id: 3,
-    name: "Sườn Nấu Pate Pháp",
-    image: "../assets/images/buffet.png",
-    category: "dessert",
-    label: "",
-    price: "9.99",
-    featured: false,
-    description:
-      "Pate vốn là món ăn có nguồn gốc từ nước Pháp. Pate kết hợp với sườn sẽ tạo nên món ăn đậm vị với nước dùng sóng sánh, thơm ngọt. Sườn thấm mềm quyện cùng pate thơm béo đặc biệt hấp dẫn.",
-  },
-];
+export const DISHES =
+    [
+        {
+        id: 0,
+        name:'Uthappizza',
+        image: '/assets/images/uthappizza.png',
+        category: 'mains',
+        label:'Hot',
+        price:'4.99',
+        featured: true,
+        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'                    
+        },
+        {
+        id: 1,
+        name:'Zucchipakoda',
+        image: '/assets/images/zucchipakoda.png',
+        category: 'appetizer',
+        label:'',
+        price:'1.99',
+        featured: false,
+        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'
+        },
+        {
+        id: 2,
+        name:'Vadonut',
+        image: '/assets/images/vadonut.png',
+        category: 'appetizer',
+        label:'New',
+        price:'1.99',
+        featured: false,
+        description:'A quintessential ConFusion experience, is it a vada or is it a donut?'
+        },
+        {
+        id: 3,
+        name:'ElaiCheese Cake',
+        image: '/assets/images/elaicheesecake.png',
+        category: 'dessert',
+        label:'',
+        price:'2.99',
+        featured: false,
+        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
+        }
+    ];
